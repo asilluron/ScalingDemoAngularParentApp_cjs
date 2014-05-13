@@ -1,0 +1,42 @@
+{
+  "name": "AngularParentApp_cjs",
+  "version": "0.0.0",
+  "description": "ScalingDemoAngularParentApp_cjs ===============================",
+  "main": "index.js",
+  "scripts": {
+    "test": "karma start",
+    "install": "napa"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/asilluron/ScalingDemoAngularParentApp_cjs.git"
+  },
+  "dependencies": {
+    "blog-content": "git://github.com/asilluron/ScalingDemoAngularSubApp_cjs",
+    "blog-resource": "git://github.com/asilluron/ScalingDemoAngularSubAppModel2_cjs"
+  },
+  "devDependencies": {
+    "gulp": "~3.6.2",
+    "browserify": "~3.46.0",
+    "vinyl-source-stream": "~0.1.1",
+    "karma": "~0.12.14",
+    "karma-jasmine": "~0.1.5",
+    "karma-phantomjs-launcher": "~0.1.4",
+    "karma-browserify": "~0.2.0",
+    "gulp-angular-templates": "0.0.1"
+  },
+  "napa": {
+    "angular": "angular/bower-angular#v1.2.16",
+    "angular-mocks": "angular/bower-angular-mocks#v1.2.16",
+    "angular-ui-router": "angular-ui/ui-router"
+  },
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "bugs": {
+    "url": "https://github.com/asilluron/ScalingDemoAngularParentApp_cjs/issues"
+  },
+  "homepage": "https://github.com/asilluron/ScalingDemoAngularParentApp_cjs"
+}
